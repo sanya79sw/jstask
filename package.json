@@ -1,0 +1,19 @@
+{
+  "name": "LearnJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ava": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx ava --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
