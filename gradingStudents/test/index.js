@@ -6,6 +6,9 @@ test('Must be return grades', t => {
 });
 
 test('Value is not a number', t => {
-    const error = gradingStudents([28, 43, 67, '12', 84]);
+    // const error = gradingStudents([28, 43, 67, '12', 84]);
+    const error = t.throws(() => {
+        return gradingStudents([28, 43, 67, '12', 84]);
+    });
     t.is(error.message, '');
 });
